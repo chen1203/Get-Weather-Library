@@ -1,0 +1,18 @@
+c:\users\asus\documents\visual studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.exe
+c:\users\asus\documents\visual studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.pdb
+c:\users\asus\documents\visual studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.exe
+c:\users\asus\documents\visual studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.pdb
+C:\Users\t\Downloads\shenkar.libraryProject-2015-08-22\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.exe.config
+C:\Users\t\Downloads\shenkar.libraryProject-2015-08-22\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.exe
+C:\Users\t\Downloads\shenkar.libraryProject-2015-08-22\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.pdb
+C:\Users\t\Downloads\shenkar.libraryProject-2015-08-22\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.exe
+C:\Users\t\Downloads\shenkar.libraryProject-2015-08-22\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.pdb
+C:\Users\t\Downloads\shenkar.libraryProject-2015-08-22\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.csprojResolveAssemblyReference.cache
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.exe.config
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.exe
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.pdb
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.exe
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\bin\Debug\shenkar.libraryProject.pdb
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenkar.libraryProject\obj\Debug\shenkar.libraryProject.csprojResolveAssemblyReference.cache
