@@ -8,7 +8,7 @@ namespace il.ac.shenkar.weatherProject
         {
             // create the factory
             WeatherDataServiceFactory factory = new WeatherDataServiceFactory();
-            // get thd desired service from factory
+            // get the desired service from factory
             IWeatherDataService weatherService = factory.getWeatherDataService(WeatherDataServiceFactory.SERVICE_TYPE.OPEN_WEATHER_MAP);
             // use the weather service
             Location location = new Location("London", "uk");
