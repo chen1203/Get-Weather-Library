@@ -2,7 +2,7 @@
 
 namespace il.ac.shenkar.weatherProject
 {
-    class WeatherDataService : IWeatherDataService
+     class WeatherDataService : IWeatherDataService
     {
         private static WeatherDataService instance;
 
@@ -21,7 +21,7 @@ namespace il.ac.shenkar.weatherProject
             }
         }
 
-        // get weather data due to location only (city and country)
+        // going to the url for current weather
         public WeatherData GetWeatherData(Location location)
         {
             try
@@ -30,12 +30,32 @@ namespace il.ac.shenkar.weatherProject
                 string url = "http://api.openweathermap.org/data/2.5/weather?q=" + location.Name + "," + location.Country + "&mode=xml";
                 // send the url to parser and get from it the weather data object
                 IParser parser = new XMLParser(url);
-                return parser.ParseDocument();
+                return parser.ParseDocumentCurrent();
             }
             catch (Exception)
             {
-                throw new NotImplementedException();
+                //if there is no connection to the internet
+                throw new WeatherDataServiceException('\n' + "No Internet Connection, Failed to load and parse weather data from web service" + '\n' + '\n'); 
             }
         }
+
+        // going to the url for future weather
+        public List<WeatherData> GetFutureWeatherData(Location location, double numOfDays)
+        {
+            double days = numOfDays;
+                try
+                {
+                    // create the url string
+                    string url = "http://api.openweathermap.org/data/2.5/forecast?q=" + location.Name + "," + location.Country + "&mode=xml";
+                    // send the url to parser and get from it the weather data object
+                    IParser parser = new XMLParser(url);
+                    return parser.ParseDocumentFuture(days);
+                }
+                catch (Exception)
+                {
+                    //if there is no connection to the internet
+                    throw new WeatherDataServiceException('\n' + "No Internet Connection, Failed to load and parse weather data from web service" + '\n' + '\n'); 
+                }
+            }
     }
 }
