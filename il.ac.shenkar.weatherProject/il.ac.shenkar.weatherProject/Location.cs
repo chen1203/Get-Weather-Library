@@ -4,7 +4,7 @@ namespace il.ac.shenkar.weatherProject
 {
     class Location
     {
-        private string name, country;
+              private string name, country;
 
         //constructor
         public Location(string name, string country)
@@ -19,15 +19,12 @@ namespace il.ac.shenkar.weatherProject
             set
             {
                 if (value == "")
-                {
-                    Console.WriteLine("no city like that");
-                }
+                { Console.WriteLine("please enter a city"); }
                 else
-                {
-                    name = value;
-                }
+                { name = value; }
             }
         }
+
 
         public string Country
         {
@@ -35,10 +32,12 @@ namespace il.ac.shenkar.weatherProject
             set { country = value; }
         }
 
+
         //Get all in to string 
         public override string ToString()
         {
-            return "Location: Name=" + Name + ", Country=" + Country + '\n';
+            return "Location: Name=" + Name +
+                ", Country=" + Country + '\n';
         }
     }
 }
