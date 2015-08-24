@@ -5,7 +5,7 @@ namespace il.ac.shenkar.weatherProject
     /// <summary>
     /// This class describes a location by city and country
     /// </summary>
-    class Location
+    public class Location
     {
         private string city, country;
        

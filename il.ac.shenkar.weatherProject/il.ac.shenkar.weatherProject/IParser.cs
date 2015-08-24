@@ -1,12 +1,10 @@
-﻿using System.Collections.Generic;
-
-namespace il.ac.shenkar.weatherProject
+﻿namespace il.ac.shenkar.weatherProject
 {
     /// <summary>
     /// This interface defines the ParseDocument method 
     /// and it's purpose is to get the data from a url address and parse it to weather object
     /// </summary>
-    interface IParser
+    public interface IParser
     {
         /// <summary>
         /// Parses the document from the url address

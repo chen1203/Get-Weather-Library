@@ -5,7 +5,7 @@ namespace il.ac.shenkar.weatherProject
     /// <summary>
     /// Factory of weather services 
     /// </summary>
-    class WeatherDataServiceFactory 
+    public class WeatherDataServiceFactory 
     {
         /// <summary>
         /// Enum which contains type of services

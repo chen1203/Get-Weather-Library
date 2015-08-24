@@ -1,1 +1,13 @@
 C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.exe.config
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.exe.config
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Release\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Release\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Release\il.ac.shenkar.weatherProject.csprojResolveAssemblyReference.cache
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.exe.manifest
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.application
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Release\il.ac.shenkar.weatherProject.exe.manifest
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Release\il.ac.shenkar.weatherProject.application

@@ -5,7 +5,7 @@ namespace il.ac.shenkar.weatherProject
     /// <summary>
     /// This class describes a weather object 
     /// </summary>
-    class WeatherData
+    public class WeatherData
     {
         private string weatherValue;
         private double temp;

@@ -5,7 +5,7 @@ namespace il.ac.shenkar.weatherProject
     /// <summary>
     /// This service returns the current weather 
     /// </summary>
-    class WeatherDataService : IWeatherDataService
+    public class WeatherDataService : IWeatherDataService
     {
         /// <summary>
         /// Instance of the service as a part of the singletone implementation

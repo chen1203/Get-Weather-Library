@@ -4,7 +4,7 @@
     /// This interface defines the GetWeatherData method 
     /// and it's purpose is to get the weather data
     /// </summary>
-    interface IWeatherDataService
+    public interface IWeatherDataService
     {
         /// <summary>
         /// Get the current weather details in the requested location
