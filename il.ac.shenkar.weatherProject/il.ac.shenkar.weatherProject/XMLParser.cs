@@ -40,8 +40,6 @@ namespace il.ac.shenkar.weatherProject
             }
         }
 
-        // get current weather data
-
         /// <summary>
         /// Parses the xml file to weather object
         /// </summary>
@@ -67,8 +65,9 @@ namespace il.ac.shenkar.weatherProject
                 return new WeatherData(weather.weatherValue, Double.Parse(weather.temp), Double.Parse(weather.minTemp), Double.Parse(weather.maxTemp),
                                     weather.unitTemp, Convert.ToDateTime(weather.lastUpdate), weather.windDesc);
             }
-            catch (WeatherDataServiceException e)
+            catch (Exception e)
             {
+                Console.WriteLine(e.Source);
                 throw new WeatherDataServiceException("Couldn't parse the xml");
             }
         }

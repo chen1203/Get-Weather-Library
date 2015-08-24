@@ -47,6 +47,7 @@ namespace il.ac.shenkar.weatherProject
             }
             catch (Exception e)
             {
+                Console.WriteLine(e.Source);
                 throw new WeatherDataServiceException("Couldn't finish parsing successfully of location :\n" + location.ToString());
             }
         }
