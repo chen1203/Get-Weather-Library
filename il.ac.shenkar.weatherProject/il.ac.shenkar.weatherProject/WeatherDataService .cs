@@ -10,7 +10,7 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// Instance of the service as a part of the singletone implementation
         /// </summary>
-        private static WeatherDataService instance;
+        private static WeatherDataService _instance;
 
         /// <summary>
         /// Singletone design patern implementation
@@ -19,11 +19,37 @@ namespace il.ac.shenkar.weatherProject
         {
             get
             {
-                if (instance == null)
+                if (_instance == null)
                 {
-                    instance = new WeatherDataService();
+                    _instance = new WeatherDataService();
                 }
-                return instance;
+                return _instance;
+            }
+        }
+
+        public static WeatherDataService Instance1
+        {
+            get
+            {
+                return _instance;
+            }
+
+            set
+            {
+                _instance = value;
+            }
+        }
+
+        public static WeatherDataService Instance2
+        {
+            get
+            {
+                return _instance;
+            }
+
+            set
+            {
+                _instance = value;
             }
         }
 
@@ -31,6 +57,7 @@ namespace il.ac.shenkar.weatherProject
         /// Get the weather data due to location 
         /// </summary>
         /// <param name="location"></param>
+        /// <exception cref="WeatherDataServiceException"></exception>
         /// <returns> The weather data object </returns>
         public WeatherData GetWeatherData(Location location)
         {

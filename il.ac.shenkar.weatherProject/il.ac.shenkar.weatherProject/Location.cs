@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace il.ac.shenkar.weatherProject
 {
     /// <summary>
@@ -7,7 +6,7 @@ namespace il.ac.shenkar.weatherProject
     /// </summary>
     public class Location
     {
-        private string city, country;
+        private string _city, _country;
        
         /// <summary>
         /// Location constructor
@@ -16,8 +15,8 @@ namespace il.ac.shenkar.weatherProject
         /// <param name="country"></param>
         public Location(string city, string country)
         {
-            this.City = city;
-            this.Country = country;
+            City = city;
+            Country = country;
         }
 
         /// <summary>
@@ -25,12 +24,12 @@ namespace il.ac.shenkar.weatherProject
         /// </summary>
         public string City
         {
-            get { return city; }
+            get { return _city; }
             set
             {
                 if (value != null)
                 {
-                    city = value;
+                    _city = value;
                 }
                 else
                 {
@@ -44,12 +43,12 @@ namespace il.ac.shenkar.weatherProject
         /// </summary>
         public string Country
         {
-            get { return country; }
+            get { return _country; }
             set
             {
                 if (value != null)
                 {
-                    country = value;
+                    _country = value;
                 }
                 else
                 {

@@ -7,13 +7,9 @@ namespace il.ac.shenkar.weatherProject
     /// </summary>
     public class WeatherData
     {
-        private string weatherValue;
-        private double temp;
-        private double minTemp;
-        private double maxTemp;
-        private string unitTemp;
-        private DateTime lastUpdate;
-        private string windDesc;
+        private string _weatherValue;
+        private string _unitTemp;
+        private string _windDesc;
 
         /// <summary>
         /// Weather data constructor
@@ -28,13 +24,13 @@ namespace il.ac.shenkar.weatherProject
         public WeatherData(string weatherValue, double temp, double minTemp, double maxTemp,
                            string unitTemp, DateTime lastUpdate, string windDesc)
         {
-            this.WeatherValue = weatherValue;
-            this.Temp = temp;
-            this.MinTemp = minTemp;
-            this.MaxTemp = maxTemp;
-            this.UnitTemp = unitTemp;
-            this.LastUpdate = lastUpdate;
-            this.WindDesc = windDesc;
+            WeatherValue = weatherValue;
+            Temp = temp;
+            MinTemp = minTemp;
+            MaxTemp = maxTemp;
+            UnitTemp = unitTemp;
+            LastUpdate = lastUpdate;
+            WindDesc = windDesc;
         }
 
         /// <summary>
@@ -42,12 +38,12 @@ namespace il.ac.shenkar.weatherProject
         /// </summary>
         public string WeatherValue
         {
-            get { return weatherValue; }
+            get { return _weatherValue; }
             set
             {
                 if (value != null)
                 {
-                    weatherValue = value;
+                    _weatherValue = value;
                 }
                 else
                 {
@@ -59,41 +55,29 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// This property refers the weather temperature
         /// </summary>
-        public double Temp
-        {
-            get { return temp; }
-            set { temp = value; }
-        }
+        public double Temp { get; set; }
 
         /// <summary>
         /// This property refers the weather minimum temperature
         /// </summary>
-        public double MinTemp
-        {
-            get { return minTemp; }
-            set { minTemp = value; }
-        }
+        public double MinTemp { get; set; }
 
         /// <summary>
         /// This property refers the weather maximum temperature
         /// </summary>
-        public double MaxTemp
-        {
-            get { return maxTemp; }
-            set { maxTemp = value; }
-        }
+        public double MaxTemp { get; set; }
 
         /// <summary>
         /// This property refers the unit of temperature
         /// </summary>
         public string UnitTemp
         {
-            get { return unitTemp; }
+            get { return _unitTemp; }
             set
             {
                 if (value != null)
                 {
-                    unitTemp = value;
+                    _unitTemp = value;
                 }
                 else
                 {
@@ -105,33 +89,19 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// This property refers the weather last update
         /// </summary>
-        public DateTime LastUpdate
-        {
-            get { return lastUpdate; }
-            set
-            {
-                if (lastUpdate != null)
-                {
-                    lastUpdate = value;
-                }
-                else
-                {
-                    throw new WeatherDataServiceException("last update is null");
-                }
-            }
-        }
+        public DateTime LastUpdate { get; set; }
 
         /// <summary>
         /// This property refers the wind description
         /// </summary>
         public string WindDesc
         {
-            get { return windDesc; }
+            get { return _windDesc; }
             set
             {
                 if (value != null)
                 {
-                    windDesc = value;
+                    _windDesc = value;
                 }
                 else
                 {
