@@ -8,7 +8,7 @@ namespace il.ac.shenkar.weatherProject
     class Location
     {
         private string city, country;
-        
+       
         /// <summary>
         /// Location constructor
         /// </summary>
