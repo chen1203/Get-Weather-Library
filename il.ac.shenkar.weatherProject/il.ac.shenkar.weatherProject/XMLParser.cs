@@ -4,6 +4,10 @@ using System.Xml.Linq;
 
 namespace il.ac.shenkar.weatherProject
 {
+    /// <summary>
+    /// This class purpose is to retrive the data from the xml site and 
+    /// parse tha data to weather object that holds all the weather details
+    /// </summary>
     class XMLParser : IParser
     {
         private string Url { get; set; }

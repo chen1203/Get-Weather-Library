@@ -2,43 +2,69 @@
 
 namespace il.ac.shenkar.weatherProject
 {
+    /// <summary>
+    /// This class describes a location by city and country
+    /// </summary>
     class Location
     {
-        private string name, country;
-
-        //constructor
-        public Location(string name, string country)
+        private string city, country;
+        
+        /// <summary>
+        /// Location constructor
+        /// </summary>
+        /// <param name="city"></param>
+        /// <param name="country"></param>
+        public Location(string city, string country)
         {
-            Name = name;
-            Country = country;
+            this.City = city;
+            this.Country = country;
         }
 
-        public string Name
+        /// <summary>
+        /// This property refers to the location city
+        /// </summary>
+        public string City
         {
-            get { return name; }
+            get { return city; }
             set
             {
-                if (value == "")
+                if (value != null)
                 {
-                    Console.WriteLine("no city like that");
+                    city = value;
                 }
                 else
                 {
-                    name = value;
+                    throw new WeatherDataServiceException("location city is null");
                 }
             }
         }
 
+        /// <summary>
+        /// This property refers to the location country
+        /// </summary>
         public string Country
         {
             get { return country; }
-            set { country = value; }
+            set
+            {
+                if (value != null)
+                {
+                    country = value;
+                }
+                else
+                {
+                    throw new WeatherDataServiceException("location country is null");
+                }
+            }
         }
 
-        //Get all in to string 
+        /// <summary>
+        /// Override the ToString method 
+        /// </summary>
+        /// <returns> String describing the location </returns>
         public override string ToString()
         {
-            return "Location: Name=" + Name + ", Country=" + Country + '\n';
+            return "Location - \nCity : " + City + ", Country : " + Country + '\n';
         }
     }
 }

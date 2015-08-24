@@ -7,3 +7,6 @@ C:\Users\Chen\Documents\Visual Studio 2015\Projects\shenkar.libraryProject\shenk
 C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.exe.config
 C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.exe
 C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.csprojResolveAssemblyReference.cache

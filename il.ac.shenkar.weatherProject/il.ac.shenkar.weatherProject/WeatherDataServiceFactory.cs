@@ -2,10 +2,21 @@
 
 namespace il.ac.shenkar.weatherProject
 {
-    class WeatherDataServiceFactory
+    /// <summary>
+    /// Factory of weather services 
+    /// </summary>
+    class WeatherDataServiceFactory 
     {
-        public enum SERVICE_TYPE { OPEN_WEATHER_MAP, OTHER };
-
+        /// <summary>
+        /// Enum which contains type of services
+        /// </summary>
+        public enum SERVICE_TYPE { OPEN_WEATHER_MAP };
+        
+        /// <summary>
+        /// Get a specific weather service by his type
+        /// </summary>
+        /// <param name="serviceType"> The requested service type </param>
+        /// <returns> Instanse of a class that implements the interface IWeatherDataService </returns>
         public IWeatherDataService getWeatherDataService(SERVICE_TYPE serviceType)
         {
             IWeatherDataService service;

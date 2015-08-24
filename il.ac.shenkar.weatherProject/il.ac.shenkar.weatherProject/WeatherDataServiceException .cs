@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace il.ac.shenkar.weatherProject
 {
+    /// <summary>
+    /// General exception for the weather data service
+    /// </summary>
     public class WeatherDataServiceException : ApplicationException
     {
-        // throw exception if the location is not exsist - to check!!! 
+        /// <summary>
+        /// weather data service exception constructor
+        /// </summary>
+        /// <param name="str"></param>
         public WeatherDataServiceException(string str) : base(str)
         {
-
+            Console.WriteLine(str);
         }
     }
 }
