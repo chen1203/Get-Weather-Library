@@ -1,0 +1,9 @@
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\bin\Debug\il.ac.shenkar.weatherProject.tests.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\bin\Debug\il.ac.shenkar.weatherProject.tests.pdb
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\bin\Debug\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\bin\Debug\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\obj\Debug\il.ac.shenkar.weatherProject.tests.csprojResolveAssemblyReference.cache
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\obj\Debug\il.ac.shenkar.weatherProject.tests.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.tests\obj\Debug\il.ac.shenkar.weatherProject.tests.pdb
