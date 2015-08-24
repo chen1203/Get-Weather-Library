@@ -1,0 +1,1 @@
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Release\il.ac.shenkar.weatherProject.exe.config
