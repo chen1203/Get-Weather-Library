@@ -12,7 +12,7 @@ namespace il.ac.shenkar.weatherProject
             // create the factory of services
             WeatherDataServiceFactory factory = new WeatherDataServiceFactory();
             // get one service from the factory by requested type
-            IWeatherDataService weatherService = factory.getWeatherDataService(WeatherDataServiceFactory.SERVICE_TYPE.OPEN_WEATHER_MAP);
+            IWeatherDataService weatherService = factory.GetWeatherDataService(WeatherDataServiceFactory.ServiceType.OPEN_WEATHER_MAP);
             // use the weather service
             Location location = new Location("london", "UK");
             // get the current weather

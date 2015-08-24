@@ -90,7 +90,6 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="il.ac.shenkar.weatherProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
