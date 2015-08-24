@@ -1,8 +1,8 @@
-﻿
-namespace il.ac.shenkar.weatherProject
+﻿namespace il.ac.shenkar.weatherProject
 {
-    /// <summary>
-    /// This interface defines a service which returns the current weather 
+    /// <summary>    
+    /// This interface defines the GetWeatherData method 
+    /// and it's purpose is to get the weather data
     /// </summary>
     interface IWeatherDataService
     {

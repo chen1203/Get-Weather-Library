@@ -10,3 +10,9 @@ C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject
 C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.exe
 C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.pdb
 C:\Users\Chen\Documents\Visual Studio 2015\Projects\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.csprojResolveAssemblyReference.cache
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.exe.config
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\bin\Debug\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\GitHub\Weather-Web-Service\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject\obj\Debug\il.ac.shenkar.weatherProject.csprojResolveAssemblyReference.cache

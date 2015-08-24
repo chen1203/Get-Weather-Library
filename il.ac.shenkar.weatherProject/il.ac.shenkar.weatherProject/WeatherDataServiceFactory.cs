@@ -23,7 +23,7 @@ namespace il.ac.shenkar.weatherProject
             switch (serviceType)
             {
                 case SERVICE_TYPE.OPEN_WEATHER_MAP:
-                    Console.WriteLine("The chosen service is 'OPEN WEATHER MAP'.");
+                    Console.WriteLine("The chosen service is 'OPEN WEATHER MAP'.\n");
                     service = new WeatherDataService();
                     break;
                 default:

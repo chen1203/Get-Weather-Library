@@ -25,7 +25,7 @@ namespace il.ac.shenkar.weatherProject
         /// <param name="unitTemp"></param>
         /// <param name="lastUpdate"></param>
         /// <param name="windDesc"></param>
-        public WeatherData(string weatherValue, double temp, double minTemp, double maxTemp, 
+        public WeatherData(string weatherValue, double temp, double minTemp, double maxTemp,
                            string unitTemp, DateTime lastUpdate, string windDesc)
         {
             this.WeatherValue = weatherValue;
@@ -146,8 +146,8 @@ namespace il.ac.shenkar.weatherProject
         /// <returns> String describing the weather data </returns>
         override public string ToString()
         {
-            return "\n*** Weather Data ***" + 
-                "\nweather value : " + WeatherValue +
+            return "\n*** Weather Data ***" +
+                "\nWeather value : " + WeatherValue +
                 "\nTemperature : " + Temp +
                 "\nMinimum temperature : " + MinTemp +
                 "\nMaximun temperature : " + MaxTemp +

@@ -10,13 +10,42 @@ namespace il.ac.shenkar.weatherProject
     /// </summary>
     class XMLParser : IParser
     {
-        private string Url { get; set; }
+        private string url;
 
+        /// <summary>
+        /// XML parser constructor
+        /// </summary>
+        /// <param name="url"></param>
         public XMLParser(string url)
         {
             Url = url;
         }
 
+        /// <summary>
+        /// This property refers to the parser's url
+        /// </summary>
+        public string Url
+        {
+            get { return url; }
+            set
+            {
+                if (value != null)
+                {
+                    url = value;
+                }
+                else
+                {
+                    throw new WeatherDataServiceException("url is null");
+                }
+            }
+        }
+
+        // get current weather data
+
+        /// <summary>
+        /// Parses the xml file to weather object
+        /// </summary>
+        /// <returns> The weather data object after parsing </returns>
         public WeatherData ParseDocument()
         {
             try
@@ -25,8 +54,6 @@ namespace il.ac.shenkar.weatherProject
                 var weatherQuery = from currentWeather in xmlDoc.Descendants("current")
                                    select new
                                    {
-                                       city = currentWeather.Descendants("city").Attributes("name").First().Value,
-                                       country = currentWeather.Descendants("city").Descendants("country").First().Value,
                                        weatherValue = currentWeather.Descendants("weather").Attributes("value").First().Value,
                                        temp = currentWeather.Descendants("temperature").Attributes("value").First().Value,
                                        minTemp = currentWeather.Descendants("temperature").Attributes("min").First().Value,
@@ -37,13 +64,12 @@ namespace il.ac.shenkar.weatherProject
                                    };
 
                 var weather = weatherQuery.ElementAt(0);
-                return new WeatherData(weather.city, weather.country, weather.weatherValue,
-                                    Double.Parse(weather.temp), Double.Parse(weather.minTemp), Double.Parse(weather.maxTemp),
+                return new WeatherData(weather.weatherValue, Double.Parse(weather.temp), Double.Parse(weather.minTemp), Double.Parse(weather.maxTemp),
                                     weather.unitTemp, Convert.ToDateTime(weather.lastUpdate), weather.windDesc);
             }
-            catch (Exception)
+            catch (WeatherDataServiceException e)
             {
-                throw new NotImplementedException();
+                throw new WeatherDataServiceException("Couldn't parse the xml");
             }
         }
     }
