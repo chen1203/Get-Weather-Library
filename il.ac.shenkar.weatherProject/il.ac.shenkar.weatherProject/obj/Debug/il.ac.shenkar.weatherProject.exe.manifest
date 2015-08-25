@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="il.ac.shenkar.weatherProject.exe" size="15776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="il.ac.shenkar.weatherProject.exe" size="16288">
       <assemblyIdentity name="il.ac.shenkar.weatherProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SEID7fvXwJ3v+7D4KD8HmmdX/JXEVpI6+kfdd+8o4YE=</dsig:DigestValue>
+        <dsig:DigestValue>7Z8uYdMJeeokvBn/2XF8vXsrP8ZAZQjIqkTBmuem5uY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -9,7 +9,7 @@ namespace il.ac.shenkar.weatherProject
     /// This class purpose is to retrive the data from the xml site and 
     /// parse tha data to weather object that holds all the weather details
     /// </summary>
-    public class XMLParser : IParser
+    public class XmlParser : IParser
     {
         private string _url;
 
@@ -17,7 +17,7 @@ namespace il.ac.shenkar.weatherProject
         /// XML parser constructor
         /// </summary>
         /// <param name="url"></param>
-        public XMLParser(string url)
+        public XmlParser(string url)
         {
             Url = url;
         }

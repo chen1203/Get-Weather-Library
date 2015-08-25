@@ -46,13 +46,13 @@ namespace il.ac.shenkar.weatherProject
                 // create the url string
                 string url = "http://api.openweathermap.org/data/2.5/weather?q=" + location.City + "," + location.Country + "&mode=xml";
                 // send the url to parser and get from it the weather data object
-                IParser parser = new XMLParser(url);
+                IParser parser = new XmlParser(url);
                 return parser.ParseDocument();
             }
             catch (WeatherDataServiceException e)
             {
                 Console.WriteLine(e.Message);
-                throw new WeatherDataServiceException("url not found, change location :\n" + location.ToString());
+                throw new WeatherDataServiceException("url not found, try to change location.");
             }
         }
     }
