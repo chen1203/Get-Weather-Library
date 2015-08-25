@@ -27,32 +27,6 @@ namespace il.ac.shenkar.weatherProject
             }
         }
 
-        public static WeatherDataService Instance1
-        {
-            get
-            {
-                return _instance;
-            }
-
-            set
-            {
-                _instance = value;
-            }
-        }
-
-        public static WeatherDataService Instance2
-        {
-            get
-            {
-                return _instance;
-            }
-
-            set
-            {
-                _instance = value;
-            }
-        }
-
         /// <summary>
         /// Get the weather data due to location 
         /// </summary>
