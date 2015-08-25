@@ -26,12 +26,12 @@ namespace il.ac.shenkar.weatherProject
         /// </summary>
         public string Url
         {
-            get { return url; }
+            get { return _url; }
             set
             {
                 if (value != null)
                 {
-                    url = value;
+                    _url = value;
                 }
                 else
                 {
