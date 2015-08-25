@@ -20,7 +20,7 @@ namespace il.ac.shenkar.weatherProject
         }
 
         /// <summary>
-        /// This property refers to the location city
+        /// This property refers to the city's name 
         /// </summary>
         public string City
         {
@@ -33,13 +33,13 @@ namespace il.ac.shenkar.weatherProject
                 }
                 else
                 {
-                    throw new WeatherDataServiceException("location city is null");
+                    throw new WeatherDataServiceException("city's name is empty");
                 }
             }
         }
 
         /// <summary>
-        /// This property refers to the location country
+        /// This property refers to the country's name
         /// </summary>
         public string Country
         {
@@ -52,7 +52,7 @@ namespace il.ac.shenkar.weatherProject
                 }
                 else
                 {
-                    throw new WeatherDataServiceException("location country is null");
+                    throw new WeatherDataServiceException("country's name is empty");
                 }
             }
         }
@@ -60,7 +60,7 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// Override the ToString method 
         /// </summary>
-        /// <returns> String describing the location </returns>
+        /// <returns> String describing the choosen location </returns>
         public override string ToString()
         {
             return "Location - \nCity : " + City + ", Country : " + Country + '\n';
