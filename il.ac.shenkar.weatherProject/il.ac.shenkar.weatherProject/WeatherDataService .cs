@@ -8,12 +8,12 @@ namespace il.ac.shenkar.weatherProject
     public class WeatherDataService : IWeatherDataService
     {
         /// <summary>
-        /// Instance of the service as a part of the singletone implementation
+        /// Instance of the service as a part of the singleton implementation
         /// </summary>
         private static WeatherDataService _instance;
 
         /// <summary>
-        /// Singletone design patern implementation
+        /// Singleton design pattern implementation
         /// </summary>
         public static WeatherDataService Instance
         {
@@ -56,7 +56,7 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// Get the weather data due to location 
         /// </summary>
-        /// <param name="location"></param>
+        /// <param Location(city name, country name)></param>
         /// <exception cref="WeatherDataServiceException"></exception>
         /// <returns> The weather data object </returns>
         public WeatherData GetWeatherData(Location location)
