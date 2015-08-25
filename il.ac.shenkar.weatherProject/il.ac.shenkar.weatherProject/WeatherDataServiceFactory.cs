@@ -4,6 +4,7 @@ namespace il.ac.shenkar.weatherProject
 {
     /// <summary>
     /// Factory of weather services 
+    /// use Factory design pattern
     /// </summary>
     public class WeatherDataServiceFactory 
     {
