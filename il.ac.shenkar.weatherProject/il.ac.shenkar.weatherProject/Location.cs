@@ -63,7 +63,7 @@ namespace il.ac.shenkar.weatherProject
         /// <returns> String describing the choosen location </returns>
         public override string ToString()
         {
-            return "Location - \nCity : " + City + ", Country : " + Country + '\n';
+            return "City : " + City + ", Country : " + Country + '\n';
         }
     }
 }

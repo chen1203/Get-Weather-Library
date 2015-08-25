@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace il.ac.shenkar.weatherProject
@@ -50,22 +51,24 @@ namespace il.ac.shenkar.weatherProject
             {
                 XDocument xmlDoc = XDocument.Load(Url);
                 var weatherQuery = from currentWeather in xmlDoc.Descendants("current")
-                                   select new
-                                   {
-                                       weatherValue = currentWeather.Descendants("weather").Attributes("value").First().Value,
-                                       temp = currentWeather.Descendants("temperature").Attributes("value").First().Value,
-                                       minTemp = currentWeather.Descendants("temperature").Attributes("min").First().Value,
-                                       maxTemp = currentWeather.Descendants("temperature").Attributes("max").First().Value,
-                                       unitTemp = currentWeather.Descendants("temperature").Attributes("unit").First().Value,
-                                       lastUpdate = currentWeather.Descendants("lastupdate").Attributes("value").First().Value,
-                                       windDesc = currentWeather.Descendants("wind").Descendants("speed").Attributes("name").First().Value
-                                   };
+                    select new
+                    {
+                        weatherValue = currentWeather.Descendants("weather").Attributes("value").First().Value,
+                        temp = currentWeather.Descendants("temperature").Attributes("value").First().Value,
+                        minTemp = currentWeather.Descendants("temperature").Attributes("min").First().Value,
+                        maxTemp = currentWeather.Descendants("temperature").Attributes("max").First().Value,
+                        unitTemp = currentWeather.Descendants("temperature").Attributes("unit").First().Value,
+                        lastUpdate = currentWeather.Descendants("lastupdate").Attributes("value").First().Value,
+                        windDesc =
+                            currentWeather.Descendants("wind").Descendants("speed").Attributes("name").First().Value
+                    };
 
                 var weather = weatherQuery.ElementAt(0);
-                return new WeatherData(weather.weatherValue, Double.Parse(weather.temp), Double.Parse(weather.minTemp), Double.Parse(weather.maxTemp),
-                                    weather.unitTemp, Convert.ToDateTime(weather.lastUpdate), weather.windDesc);
+                return new WeatherData(weather.weatherValue, Double.Parse(weather.temp), Double.Parse(weather.minTemp),
+                    Double.Parse(weather.maxTemp),
+                    weather.unitTemp, Convert.ToDateTime(weather.lastUpdate), weather.windDesc);
             }
-            catch (WeatherDataServiceException e)
+            catch (XmlException e)
             {
                 Console.WriteLine(e.Message);
                 throw new WeatherDataServiceException("Couldn't parse the xml");
