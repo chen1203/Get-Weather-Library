@@ -1,0 +1,13 @@
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\il.ac.shenkar.weatherProject.Tests.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\il.ac.shenkar.weatherProject.Tests.pdb
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\il.ac.shenkar.weatherProject.exe
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\Microsoft.Pex.Framework.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\Microsoft.ExtendedReflection.Reasoning.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\Microsoft.ExtendedReflection.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\il.ac.shenkar.weatherProject.pdb
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\Microsoft.Pex.Framework.xml
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\obj\Debug\il.ac.shenkar.weatherProject.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\obj\Debug\il.ac.shenkar.weatherProject.Tests.dll
+C:\Users\Chen\Documents\GitHub\Get-Weather-Library\il.ac.shenkar.weatherProject\il.ac.shenkar.weatherProject.Tests\obj\Debug\il.ac.shenkar.weatherProject.Tests.pdb

@@ -13,12 +13,19 @@ namespace il.ac.shenkar.weatherProject
             WeatherDataServiceFactory factory = new WeatherDataServiceFactory();
             // get one service from the factory by requested type
             IWeatherDataService weatherService = factory.GetWeatherDataService(WeatherDataServiceFactory.ServiceType.OPEN_WEATHER_MAP);
-            // use the weather service
-            Location location = new Location("london", "UK");
-            // get the current weather
-            WeatherData weatherData = weatherService.GetWeatherData(location);
-            // print the weather data 
-            Console.WriteLine(weatherData.ToString());
+            try
+            {
+                // create location object to get weather in
+                Location location = new Location("London", "UK");
+                // get the current weather
+                WeatherData weatherData = weatherService.GetWeatherData(location);
+                // print the weather data 
+                Console.WriteLine(weatherData.ToString());
+            }
+            catch (WeatherDataServiceException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

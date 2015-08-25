@@ -30,14 +30,17 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// Get the weather data due to location 
         /// </summary>
-        /// <param Location(city name, country name)></param>
+        /// <param name="location"></param>
         /// <exception cref="WeatherDataServiceException"></exception>
         /// <returns> The weather data object </returns>
         public WeatherData GetWeatherData(Location location)
         {
+            if (location == null)
+            {
+                throw new WeatherDataServiceException("location is null");
+            }
             Console.WriteLine("The service got a request to return the current weather in this location - \n" + 
                             "City : " + location.City + "\nCountry : " + location.Country);
-            
             try
             {
                 // create the url string
@@ -46,9 +49,9 @@ namespace il.ac.shenkar.weatherProject
                 IParser parser = new XMLParser(url);
                 return parser.ParseDocument();
             }
-            catch (Exception e)
+            catch (WeatherDataServiceException e)
             {
-                Console.WriteLine(e.Source);
+                Console.WriteLine(e.Message);
                 throw new WeatherDataServiceException("url not found, change location :\n" + location.ToString());
             }
         }

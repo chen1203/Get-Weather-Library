@@ -10,7 +10,7 @@ namespace il.ac.shenkar.weatherProject
     /// </summary>
     public class XMLParser : IParser
     {
-        private string url;
+        private string _url;
 
         /// <summary>
         /// XML parser constructor
@@ -29,7 +29,7 @@ namespace il.ac.shenkar.weatherProject
             get { return _url; }
             set
             {
-                if (value != null)
+                if (!string.IsNullOrEmpty(value))
                 {
                     _url = value;
                 }
@@ -65,9 +65,9 @@ namespace il.ac.shenkar.weatherProject
                 return new WeatherData(weather.weatherValue, Double.Parse(weather.temp), Double.Parse(weather.minTemp), Double.Parse(weather.maxTemp),
                                     weather.unitTemp, Convert.ToDateTime(weather.lastUpdate), weather.windDesc);
             }
-            catch (Exception e)
+            catch (WeatherDataServiceException e)
             {
-                Console.WriteLine(e.Source);
+                Console.WriteLine(e.Message);
                 throw new WeatherDataServiceException("Couldn't parse the xml");
             }
         }

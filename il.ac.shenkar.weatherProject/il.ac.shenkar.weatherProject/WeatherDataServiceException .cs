@@ -13,7 +13,6 @@ namespace il.ac.shenkar.weatherProject
         /// <param name="str"> The string describes the exception </param>
         public WeatherDataServiceException(string str) : base(str)
         {
-            Console.WriteLine(str);
         }
     }
 }

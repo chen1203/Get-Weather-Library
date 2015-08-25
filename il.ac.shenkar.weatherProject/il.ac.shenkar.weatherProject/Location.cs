@@ -27,7 +27,7 @@ namespace il.ac.shenkar.weatherProject
             get { return _city; }
             set
             {
-                if (value != null)
+                if (!string.IsNullOrEmpty(value))
                 {
                     _city = value;
                 }
@@ -46,7 +46,7 @@ namespace il.ac.shenkar.weatherProject
             get { return _country; }
             set
             {
-                if (value != null)
+                if (!string.IsNullOrEmpty(value))
                 {
                     _country = value;
                 }
