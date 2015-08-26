@@ -12,7 +12,7 @@ namespace il.ac.shenkar.weatherProject
             // create the factory of services
             WeatherDataServiceFactory factory = new WeatherDataServiceFactory();
             // get one service from the factory by requested type
-            IWeatherDataService weatherService = factory.GetWeatherDataService(WeatherDataServiceFactory.ServiceType.OPEN_WEATHER_MAP);
+            IWeatherDataService weatherService = factory.GetWeatherDataService(WeatherDataServiceFactory.ServiceType.OpenWeatherMap);
             Console.WriteLine("*************************************************");
             try
             {
@@ -30,10 +30,10 @@ namespace il.ac.shenkar.weatherProject
 
             Console.WriteLine("*************************************************");
             Console.WriteLine("\nDo you want to try get weather in your current location ?");
-            Console.WriteLine("Press 'c' to continue or 'e' to exit.");
+            Console.WriteLine("Press 'C' to continue or 'E' to exit.");
             string key = Console.ReadLine();
 
-            while (key.Equals("c", StringComparison.InvariantCultureIgnoreCase))
+            while (key != null && key.Equals("c", StringComparison.InvariantCultureIgnoreCase))
             {
                 Console.WriteLine("Enter your city name : ");
                 string city = Console.ReadLine();
@@ -50,10 +50,9 @@ namespace il.ac.shenkar.weatherProject
                     Console.WriteLine(e.Message);
                 }
                 Console.WriteLine("*************************************************\n");
-                Console.WriteLine("Press 'c' to continue or 'e' to exit.");
+                Console.WriteLine("Press 'C' to continue or 'E' to exit.");
                 key = Console.ReadLine();
             }
-            return;
         }
     }
 }

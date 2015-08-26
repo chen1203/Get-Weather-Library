@@ -11,7 +11,7 @@ namespace il.ac.shenkar.weatherProject
         /// <summary>
         /// Enum which contains type of services
         /// </summary>
-        public enum ServiceType { OPEN_WEATHER_MAP };
+        public enum ServiceType { OpenWeatherMap };
         
         /// <summary>
         /// Get a specific weather service by his type
@@ -23,7 +23,7 @@ namespace il.ac.shenkar.weatherProject
             IWeatherDataService service;
             switch (serviceType)
             {
-                case ServiceType.OPEN_WEATHER_MAP:
+                case ServiceType.OpenWeatherMap:
                     Console.WriteLine("The chosen service is 'OPEN WEATHER MAP'.\n");
                     service = WeatherDataService.Instance;
                     break;
